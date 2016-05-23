@@ -6,6 +6,8 @@ The Script-and-Go scripting language was built to allow people to build OpenGL a
 
 ## Example script
 
+![Example](https://raw.githubusercontent.com/featherless/2003-script-and-go/master/Animation.gif)
+
     /*  Script-and-Go code by Jeff Verkoeyen,
     	created 2003	*/
     
