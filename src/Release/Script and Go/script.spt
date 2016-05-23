@@ -1,0 +1,37 @@
+/*
+ Copyright 2003, 2016 Jeff Verkoeyen. All Rights Reserved.
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+ http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ */
+
+/*  Script-and-Go code by Jeff Verkoeyen,
+	created 2003	*/
+
+BEGIN;
+	DrawMode("front","lines");
+	Reset;							// Equivalent to LoadIdentity
+	DisableTextures;				// Disables the textures
+	Move(0,0,-100);					// Moves the line back on the z-plane
+	SetColor(1.0f,0.5f,0.25f,0.0f);	// Sets the color to orange
+	DrawLine(0,0,0,38,20,0);		// Draws the line
+	DrawLine(30,20,0,-10,-30,40);	// Draws another line, but closer
+
+	Reset;
+	Move(0,0,-100);
+	SetColor(1.0f,1.0f,0.0f,0.5f);
+	Rotate(@34,1.0f,0.0f,0.0f);
+	Move(10,20,0);
+	Box(-10,10,0,10,10,0,10,-10,0,-10,-10,0);
+
+	@34+0.5;
+END;

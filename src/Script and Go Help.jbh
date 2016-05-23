@@ -1,0 +1,566 @@
+JBHFILEVERSION
+3
+Script-and-Go Scripting Help
+16777215
+16777215
+0
+0
+480
+640
+14
+Table of Contents
+Table of Contents
+
+TRUE
+	ToC
+ToC
+Table of Contents
+FALSE
+	Contact
+Contact
+Contact Info
+FALSE
+Intro
+Intro
+
+TRUE
+	Intro to Scripting
+Intro to Scripting
+Intro to Scripting
+FALSE
+	What you need
+What you need
+What you need
+FALSE
+	Hello World
+Hello World
+Hello World
+FALSE
+Beginners
+Beginners
+
+TRUE
+	The Basics
+The Basics
+The Basics
+FALSE
+	Drawing Lines
+Drawing Lines
+Drawing Lines
+FALSE
+	Coloring
+Coloring
+Coloring
+FALSE
+Appendix
+Appendix
+
+TRUE
+	The Big List of Errors
+The Big List of Errors
+Errors
+FALSE
+	Commands
+Commands
+Commands
+FALSE
+10
+Table of Contents
+00001
+TOC
+Table of Contents
+TOC
+21
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;\red0\green128\blue0;}
+\viewkind4\uc1\pard\qc\cf1\i\fs40 Help File for Script-and-Go Scripting
+\par \b\i0\fs24 By Jeff Verkoeyen
+\par S-a-G v1.0b
+\par Help File last edited 3/15/2003 3:08AM
+\par \cf2\ul\b0\protect ##Contact Info##\cf1\ulnone\b  \protect0 
+\par \pard 
+\par \pard\qc Table of Contents:
+\par \pard Introduction:
+\par    1) \cf2\ul\b0\protect ##Intro to Scripting##\cf1\ulnone\b  \protect0 
+\par    2) \cf2\ul\b0\protect ##What you need##\cf1\ulnone\b  \protect0 
+\par    3) \cf2\ul\b0\protect ##Hello World##\cf1\ulnone\b  \protect0 
+\par Beginners:
+\par    4) \cf2\ul\b0\protect ##The Basics##\cf1\ulnone\b  \protect0 
+\par    5) \cf2\ul\b0\protect ##Drawing Lines##\cf1\ulnone\b  \protect0 
+\par    6) \cf2\ul\b0\protect ##Coloring##\cf1\ulnone\b  \protect0 
+\par Appendix:
+\par    7) \cf2\ul\b0\protect ##Errors##\cf1\ulnone\b  \protect0 
+\par    8) \cf2\ul\b0\protect ##Commands##\cf1\ulnone\b  \protect0 
+\par }
+0
+9
+Intro to Scripting
+0
+Intro to Scripting
+Intro to Scripting
+FALSE
+What you need
+0
+What you need
+What you need
+FALSE
+Hello World
+0
+Hello World
+Hello World
+FALSE
+The Basics
+0
+The Basics
+The Basics
+FALSE
+Drawing Lines
+0
+Drawing Lines
+Drawing Lines
+FALSE
+Coloring
+0
+Coloring
+Coloring
+FALSE
+Errors
+0
+Errors
+Errors
+FALSE
+Commands
+0
+Commands
+Commands
+FALSE
+Contact Info
+0
+Contact Info
+Contact Info
+FALSE
+0
+Intro to Scripting
+002
+Intro to Scripting
+Intro to Scripting
+Intro
+16
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;\red0\green128\blue0;}
+\viewkind4\uc1\pard\qc\cf1\fs32 Intro to Scripting
+\par 
+\par \pard\fs24 Welcome to the Script-and-Go Help file.  This help file will hopefully teach you how to use Script-and-Go as fluently as the current language you speak.
+\par 
+\par The purpose of Script-and-Go is to allow anyone who either doesn't have a compiler or doesn't know how to program (or both) to program basic programs in OpenGL.
+\par 
+\par If you have never programmed before, and are interested in trying out a language, this might be just right for you.  Scripting is not technically programming as a language, however, because it usually involves creating code that will run through an "interpreter", which is the Script-and-Go EXE file that you should have (if you don't have it, it can be found on the IVGDA site here: \cf2\ul\protect ##IVGDA##\cf1\ulnone  \protect0 
+\par 
+\par If you are a person who does not have a compiler, this program will allow you to get the sense of programming, without ever needing to buy a compiler!  Because this program is merely an interpreter, you get the advantage of precompiled exes, and you don't have to worry about creating windows or any of the other Win32 stuff.
+\par 
+\par However, the main draw-back to scripting is that the language is not easily changeable.  For instance, if you were to want to create your own command, you would not be able to do so without contacting me about it.  Even though this is an annoying draw-back, there are plenty more plusses than minuses about scripting.
+\par 
+\par Scripting is not only aimed at beginners, but by allowing scripting in programs, you allow the programmers themselves to test out little things very quickly, without ever having to recompile a program.  And with S-a-G's error-testing and debugging features, you will be bug-free from all of your programs!\f1\fs20 
+\par }
+0
+1
+IVGDA
+1
+http://ivgda.skylockgames.com/
+IVGDA Link
+FALSE
+0
+What you need
+003
+What you need
+What you need
+requirements
+11
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;\red0\green128\blue0;}
+\viewkind4\uc1\pard\qc\cf1\fs32 What you need to get started
+\par 
+\par \pard\fs24 You only need a couple things to be able to start working with S-a-G:
+\par 
+\par First, you will need the most updated version of S-a-G, which can be found on the \cf2\ul\protect ##Contact##\cf1\ulnone  \protect0 .
+\par Second, you will want to have the newest version of this help file: if you go to the site and you see that the version of the help file on the site is higher than this one, redownload the new one.
+\par Third, you will need a Windows computer.  The Exe was designed for Windows, and will only work IN Windows, unless the program has been edited, in which case the program should be destroyed/deleted.
+\par Fourth, some common sense always helps.\f1\fs20 
+\par }
+0
+1
+Contact
+0
+Contact Info
+contact page
+FALSE
+0
+Contact Info
+004
+Contact Info
+Contact Info
+contact; email
+12
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;\red0\green128\blue0;}
+\viewkind4\uc1\pard\qc\cf1\fs32 Contact Info
+\par 
+\par \pard\fs24 Contact Jeff Verkoeyen:
+\par Email:  \cf2\ul\protect ##email##\cf1\ulnone  \protect0 
+\par Website: \cf2\ul\protect ##website##\cf1\ulnone  \protect0 
+\par 
+\par Do not edit this help file in any way, shape, or form without written consent of Jeff Verkoeyen.
+\par 
+\par \'a92003, Script-and-Go is a program of IVGDA and WILL NOT be edited, decompiled, modified, sold, traded, or otherwise defigured, without proper, WRITTEN consent of Jeff Verkoeyen.\f1\fs20 
+\par }
+0
+2
+email
+2
+ragingflame@msn.com
+ragingflame@msn.com
+FALSE
+website
+1
+http://ivgda.skylockgames.com
+ivgda.skylockgames.com
+FALSE
+0
+Hello World
+005
+Hello World
+Hello World
+start; hello world
+61
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\qc\cf1\fs32 Hello World!
+\par 
+\par \pard\fs24 Aaah, the infamous Hello World program.  No language is ever complete without having at least one tutorial which includes a Hello World example.
+\par 
+\par Thing is, however, that in the current version of S-a-G, there is no way to output text :), so we have to make do with an intro to the comments.
+\par 
+\par Let's start off with the most essential part about S-a-G, the BEGIN and END structure.
+\par 
+\par BEGIN and END go hand in hand, you mustn't forget that, wherever there is a BEGIN, there is an END (even though you should only have one of each......)
+\par 
+\par Let's start off by making a simple program.
+\par 
+\par What you will need is to open up a text-editing program like Notepad, (NOT WORD, Word will generate creepy stuff all over the place), then, type in the following code:
+\par 
+\par \cf2 BEGIN;
+\par 
+\par END;\cf1 
+\par 
+\par As you can see, we started the program with a BEGIN statement, and ended with an END statement.  That should make logical sense to you.  Now, if you're new to programming, you probably don't understand why there has to be a semicolon at the end of each line.  Well, the reason for that is so the interpreter can know when the end of a command is, and then be able to read up to that point and not have to read the whole file at once and just guess-and-check all over the place.
+\par 
+\par So remember, when programming in S-a-G, ALWAYS END EACH COMMAND WITH A SEMICOLON, do NOT forget to do this, or you will most likely get errors.
+\par 
+\par Now that you have typed those lines of code in to notepad or whatever you are using, save the file as "script.spt" without the quotes, and save it to the SAME folder as the one that the exe is in for the interpreter.  The exe should be called "Script and Go.exe".
+\par 
+\par Once you have saved it to the folder, open up windows explorer or whatever you use to navigate your computer, find the exe and run it.  If all goes well, your screen should go black and then just sit there.....
+\par 
+\par However, assuming that you messed up somewhere, check out the Errors page to learn about what might be happening.
+\par 
+\par Now that everyone should be on the same track, let's add our Hello World comments!
+\par 
+\par Right before the BEGIN; command, enter these lines of code:
+\par 
+\par \cf2 /* Hello World, this program was made by <your name here>
+\par    I made it on <date> and it is COOL
+\par */\cf1 
+\par 
+\par That is what I like to call a "multi-line comment", because it will go across an infinite number of lines, untill it reaches a */, at which point it will stop.
+\par 
+\par Now, replace the BEGIN; code with this line of code:
+\par 
+\par \cf2 BEGIN;   // This is where the program begins\cf1 
+\par 
+\par Then, replace the END; code with this:
+\par 
+\par \cf2 END;    // This is where the program stops\cf1 
+\par 
+\par Now your program should look roughly similar to this:
+\par 
+\par \cf2 /* Hello World, this program was made by <your name here>
+\par    I made it on <date> and it is COOL
+\par */
+\par BEGIN;   // This is where the program begins
+\par \cf1\f1\fs20 
+\par \cf2\f0\fs24 END;    // This is where the program stops
+\par 
+\par \cf1 The // comment is another type of comment that comments out everything from that point on in the line, regardless of where it IS in the line.  This comment is usually best used right after a command so that others (or yourself) will be able to tell what you are doing on that particular command.
+\par 
+\par Save the program, and run the interpreter again.  Notice any change?  Well, if you did, you did something wrong here, because nothing should have changed at all :). Again, look at the Errors page if you don't understand what's going on.\f1\fs20 
+\par }
+0
+0
+0
+The Basics
+006
+The Basics
+The Basics
+basics
+40
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\qc\cf1\fs32 The Basics
+\par 
+\par \pard\fs24 The Basics of S-a-G include all of the basic commands and knowledge needed to operate the S-a-G language.
+\par 
+\par First off, let's get in to some basic drawing of shapes.
+\par 
+\par We'll build off of our Hello World application, and I'll try and explain as much about this code as I can, without confusing the beginners.
+\par 
+\par Let's start off with the Reset; command.  I first want to explain the difference between the two different types of commands, however.  First, there are the commands that are just like BEGIN; and END; and Reset; These commands are basic commands, and usually involving flipping a variable or starting something happening.  Then, however, there are slightly more complicated commands which use parenthesis to mark off certain parameters inside of the command.  For example:  Move(0,0,-2);  is a command that moves the current draw position.  In this case, it will move the draw position 2 units back on the z-plane, and stay in the same spot on the x and y planes.
+\par 
+\par Now, on to Reset;
+\par 
+\par This command will get to be your best friend after only a few programs.  By calling Reset;  you reset the current drawing coordinates back to 0,0,0  (x,y,z).  If you don't understand how this works, imagine this:
+\par 
+\par 0,0,0 will be a spot directly on your monitor, place your finger smack-dab in the middle of your monitor, and that is 0,0,0.  Now, 10,0,0 is a different story, since the first parameter is x, 10,0,0 will be about 10 units to the RIGHT.  Move your finger 10 of whatever "units" you would like to the right, and that is 10,0,0.  Now, Y is almost the same as moving on x, except UP.  So if you wanted to be at 10,10,0, then you would move your finger over to the right 10, and up 10.  Now, Z is the more complicated one, and if you don't have any idea about 3d, here is another example.  To move on the z-plane, you have to move either forwards or backwards.  For instance, put your finger in the middle of the monitor again, and start moving your finger towards your head......this is POSITIVE z.  Now, imagine that you can move your finger THROUGH the monitor and out the other side, that is NEGATIVE z. You understand what I'm saying now?  Here's a little quiz just to make sure:
+\par 
+\par Move your finger to the coordinate -10,10,0........
+\par 
+\par 
+\par 
+\par OK, you should have your finger there now, it SHOULD be in the top left corner of your monitor, correct?  If you don't understand, going to the right on the x-plane is positive, so logically, going to the left would be negative, and with 0,0,0 being right in the middle of your monitor, moving 10 to the left and 10 up will put your finger in the top left corner of your monitor.
+\par 
+\par Now for some code:
+\par 
+\par Place this command directly after your BEGIN; command:
+\par 
+\par \cf2 Reset;   // This moves the draw position to 0,0,0\cf1 
+\par 
+\par You can save and run the interpreter again, but nothing will happen still.  All this command is doing is moving the draw position right back to the center of everything, called the Origin (0,0,0)
+\par 
+\par Another useful command that will help you a lot is the Move command.  This is one of the more complicated commands for some people.  To use the Move command, you have to use parenthesis after it and fill it in with parameters for it to work.
+\par 
+\par Right after the Reset; command, place the following code:
+\par 
+\par \cf2 Move(10,10,-80);\tab // Moves 10 units right, 10 up, and 80 in to the screen
+\par 
+\par \cf1 Now, you're probably wondering why we are moving IN to the screen 80 units, and that is only because, if you were to have it set to anything greater than 0, nothing would be drawn, because it would be "in front" of the screen.\f1\fs20 
+\par }
+0
+0
+0
+Drawing Lines
+007
+Drawing Lines
+Drawing Lines
+drawing
+14
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\qc\cf1\fs32 Drawing Lines
+\par 
+\par \pard\fs24 Drawing lines in S-a-G is relatively easy.  It involves using just one line of code to draw it, but 6 parameters, also.
+\par 
+\par This time, we won't get in to any of the theory of the lines, we'll just go straight to the code.
+\par 
+\par Right after you placed the Move command in the last section, place the following code:
+\par 
+\par \cf2 DrawLine(0,0,0,20,20,0);   // Draw a line going from the origin to the top left of the screen
+\par 
+\par \cf1 This will draw the line on to the screen, after you put this command in your program, save the file and run the interpreter: you should see a white line going from the middle to the top right of the screen.  Remember, too, that you don't have to draw the line starting from the origin, but you could have it be drawn at some other obscure point and it would still work.\f1\fs20 
+\par }
+0
+0
+0
+Coloring
+008
+Coloring
+Coloring
+color
+10
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Arial;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\qc\cf1\fs32 Coloring
+\par 
+\par \pard\fs24 Coloring is a great skill to be able to do, and in S-a-G, it's an even greater one.  In this short little clip, we're going to learn how to set a color mode for our scene.  The below code should be placed right after the Move and right before the DrawLine commands:
+\par 
+\par \cf2 SetColor(1.0f,0.5f,0.25f,0.0f);
+\par 
+\par \cf1 And that code will turn your current color state to orange, and make everything that is drawn from that point on be drawn Orange.  Remember, the color will stay the same until otherwise changed.  Therefor, you could draw hundreds more lines, and they'd all still be orange, unless you changed their color midway between them all.\f1\fs20 
+\par }
+0
+0
+0
+Errors
+009
+Errors
+Errors
+errors
+64
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\qc\cf1\fs32 The Big List of Errors
+\par 
+\par \pard\b\fs24 Multiple BEGINs\b0 
+\par   \i Two BEGIN commands found.
+\par \i0\tab This error makes logical sense, if you ever see this, then that means that you have two BEGIN; statements somewhere in your program.
+\par 
+\par \b End in wrong spot
+\par   \b0\i Error, found END, but not BEGIN. Make sure BEGIN is before END
+\par \i0\tab This error can happen for a few reasons.  Sometimes, your code might be missing a semi-colon somewhere, some case people will actually HAVE END before BEGIN, and other cases might be that you just plain forgot to put BEGIN; in your code.
+\par 
+\par \b Couldn't find operand
+\par   \b0\i Couldn't find operand
+\par \i0\tab This error only occurs when you are assigning a new value to a variable and you are not using one of the known operands:  +   -   *   =   /   ++   --.
+\par 
+\par \b Command doesn't exist
+\par   \b0\i Error, <command>, does not exist
+\par   Line: <line number>
+\par \i0\tab This error will occur when you have a command that is not a predefined command found in the current version.
+\par 
+\par \b Too few numerical parameters
+\par   \b0\i Too few numerical parameters for <command>
+\par   Requires <number required>
+\par   Line: <line number>
+\par \i0\tab This error appears when you do not have enough numerical parameters for that command.
+\par 
+\par \b Too many numerical parameters
+\par   \b0\i Too many numerical parameters for <command>
+\par   Requires (only <number required>)/none
+\par   Line: <line number>
+\par \i0\tab Appears when you have too many numerical parameters for that command.
+\par 
+\par \b Too few character parameters\b0 
+\par \i   Too few character parameters for <command>
+\par   Requires <number required>
+\par   Line: <line number>\i0 
+\par \tab This error appears when you do not have enough character parameters for that command.
+\par 
+\par \b Too many character parameters\b0 
+\par \i   Too many \i0 character \i parameters for <command>
+\par   Requires (only <number required>)/none
+\par   Line: <line number>\i0 
+\par \tab Appears when you have too many character parameters for that command.
+\par 
+\par \b Contains
+\par \b0\i   Contains:
+\par   <num of character parameters> character parameters
+\par   <num of numerical parameters> numerical parameters
+\par \i0\tab This usually appears after one of the above four commands has appeared.  It gives you stats on how much of each typ of parameter there is inside the command.
+\par 
+\par \b Illegal character
+\par   \b0\i Command <command> only takes either "back" or "front", <error string> will not work.
+\par   Line: <line>
+\par \i0\tab Appears for a command that only accepts a certain type of string, in this case, it only accepts either back or front.
+\par 
+\par \b Missing END
+\par   \b0\i Cannot find END command!
+\par \i0\tab Another command that means what it says.  This should only appear if you forgot to put an END at the bottom of your script.
+\par 
+\par \b Missing File
+\par   \b0\i Couldn't Find script.spt
+\par \i0\tab Make sure that the exe and script.spt are in the same folder as each other.
+\par }
+0
+0
+0
+Commands
+010
+Commands
+Commands
+commands
+95
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\qc\cf1\fs32 Commands
+\par 
+\par \pard\b\fs24 @Variables
+\par \b0 @Variables are a fundamental part about S-a-G programming.  With variables, you can move something, rotate it, or change the colors of everything.  There are many different ways to use the @Variables.  @Variables can be used in place of any type of numerical parameter.
+\par \i Example:
+\par \i0 @35=10;\tab // Assign 10 the the variable 35
+\par @35++;\tab // Increment variable 35 by 1
+\par @35-3;\tab // Subtract 3
+\par @35*2;\tab // Multiply by 2
+\par @35/8;\tab // Divide by 8
+\par @35--;\tab // Decrement by 1
+\par @35+8;\tab // Add 8
+\par Rotate(@35,1.0,0.0,0.0);\tab //Rotate @35 number of degrees
+\par Move(@35,0,0);\tab // Move along the x-plane with variable 35\b 
+\par 
+\par BEGIN;
+\par \b0 This command always starts the code of your script, don't ever forget it!
+\par \i Example:
+\par \i0 BEGIN;
+\par 
+\par \b Box(x1,y1,z1,x2,y2,z2,x3,y3,z3,x4,y4,z4);
+\par \b0 Draws a box with each coord# being a point on the box, going from top right, to top left, to bottom left, to bottom right.
+\par \i Example:
+\par \i0 Box(-10,10,0,10,10,0,10,-10,0,-10,-10,0);\b 
+\par 
+\par Comments
+\par \b0 Comments are used to allow people to show text inside of the source so other people will be able to understand the code better.
+\par \i Example:
+\par \i0 /*  This is a long comment,
+\par    it can go on, until I put a 
+\par   */
+\par //  and this comment only goes for one line
+\par 
+\par \b CullFace(face);\b0 
+\par Selects the face to cull (not draw).  Accepts only "front" and "back".
+\par \i Example:\i0 
+\par CullFace("front");
+\par 
+\par \b DisableCulling;\b0 
+\par Disables Culling, aka, drawing the selected face.
+\par \i Example:\i0 
+\par DisableCulling;
+\par 
+\par \b DisableTextures;
+\par \b0 Disables the drawing of textures.
+\par \i Example:
+\par \i0 DisableTextures;
+\par 
+\par \b DrawLine(x1,y1,z1,x2,y2,z2);
+\par \b0 Draws a line from coord1 to coord 2.
+\par \i Example:
+\par \i0 DrawLine(0,10,0,30,14,-10);
+\par 
+\par \b DrawMode("face","mode");
+\par \b0 Sets the drawing mode of "face" to "mode".  Where "face" must be "front" or "back" and mode must be "fill", "lines", or "points".
+\par \i Example:
+\par \i0 DrawMode("front","lines");
+\par 
+\par \b EnableCulling;
+\par \b0 Enables Culling, aka, not drawing the selected face.
+\par \i Example:\b\i0 
+\par \b0 EnableCulling;
+\par 
+\par \b EnableTextures;
+\par \b0 Enables the drawing of textures.
+\par \i Example:
+\par \i0 EnableTextures;
+\par 
+\par \b END;
+\par \b0 Used to end all of your scripts, don't forget this either.
+\par \i Example:
+\par \i0 END;
+\par 
+\par \b Move(x,y,z);\b0 
+\par Move moves the current drawing position by the x, y, and z values passed to it.
+\par \i Example:\i0 
+\par Move(10,10,-80);
+\par 
+\par \b Reset;
+\par \b0 Reset is used to set the current drawing position back to default settings, the Origin, at 0,0,0.
+\par \i Example:
+\par \i0 Reset;
+\par 
+\par \b Rotate(degree,x,y,z);
+\par \b0 Rotates the object #degrees around each axis.  With 1 being the most, and 0 being nothing.
+\par \i Example:
+\par \i0 Rotate(45,1.0,0.0,0.0);
+\par 
+\par \b SetColor(red,green,blue,alpha);
+\par \b0 SetColor changes the current color to the colors passed to it, where alpha is the transparency value of the colors.  Where 1 is full, and 0 is empty, 1,0,0 would be red, 0,1,0 would be green, and so on.
+\par \i Example:
+\par \i0 SetColor(1.0,0.0,0.0.1.0);
+\par }
+0
+0
+0

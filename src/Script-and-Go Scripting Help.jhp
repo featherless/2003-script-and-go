@@ -1,0 +1,21 @@
+[OPTIONS]
+COMPRESS=12 Hall Zeck
+CNT=.\Script-and-Go Scripting Help.cnt
+HLP=.\Script-and-Go Scripting Help.hlp
+
+[FILES]
+.\Script-and-Go Scripting Help.jrt
+
+[MAP]
+TOC=00001
+Intro to Scripting=002
+What you need=003
+Contact Info=004
+Hello World=005
+The Basics=006
+Drawing Lines=007
+Coloring=008
+Errors=009
+Commands=010
+[WINDOWS]
+Main="",(0,0,480,640),,(r16777215),(r16777215),
